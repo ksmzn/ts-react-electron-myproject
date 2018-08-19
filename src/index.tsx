@@ -5,10 +5,6 @@ import Redbox from 'redbox-react'
 
 import App from './App'
 
-// const isDev = !!process.env && process.env.NODE_ENV === 'development'
-// console.log(process.env.NODE_ENV)
-// const isDev = true
-
 const render = (Component: React.ComponentType) => {
   ReactDOM.render(
     <AppContainer errorReporter={Redbox}>
